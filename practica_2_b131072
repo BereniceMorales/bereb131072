@@ -1,0 +1,85 @@
+<html>
+<head> </head>
+<body>
+
+<center>
+
+<table border="1">
+      
+      <tr>
+      <th colspan="2">SHAKIRA</th>
+      </tr>
+
+     <tr>
+     <td> <h2><center>Shakira</h2>
+     <img src="shakira.jpg" alt="Shakira View" style="width:350px;height:350px"></td></center>
+     
+      
+     <p> <td> <h2><center>Biografia</h2>
+     Shakira Isabel Mebarak Ripoll; Barranquilla, 1977) Cantante colombiana de pop-rock latino. Son muy pocas las estrellas latinoamericanas de la música pop-rock 
+     que han logrado un éxito  internacional tan fulminante como Shakira, intérprete y compositora en castellano e inglés que ha alcanzado un puesto destacadísimo 
+     en los ámbitos de ambas lenguas. Nacida en el seno de una familia de clase media, Shakira era hija de William Mebarak, de ascendencia libanesa, y de Nidia Ripoll, 
+     colombiana con antepasados catalanes. Desde los cinco años mostró indicios de su vocación artística, demostrando su notable talento en la interpretación de
+     danzas y cantos árabes. No en vano su nombre, Shakira, significa en lengua árabe "llena de gracia". A los ocho años compuso su primera canción, Tus gafas oscuras, 
+     que dedicó a su padre. Éste, al igual que su madre, comprendió pronto cuál era la vocación de su hija, que inició una carrera artística infantil presentándose
+     en programas de radio y televisión. A los diez años ya escribía canciones de forma sistemática; participó por primera vez en el concurso de televisión Buscando 
+     artista infantil en 1988, en el que resultó vencedora, y repitió el triunfo en 1989 y 1990. Siendo adolescente, Shakira firmó su primer contrato discográfico con
+     Sony Music Colombia, sello para el que grabó su primer álbum, Magia (1991), con temas que había compuesto entre los ocho y los trece años, al que siguió dos
+     años después un segundo álbum, Peligro (1993). Su personalidad impactó de inmediato al público y a los periodistas musicales; fue elegida para representar a
+     Colombia en el Festival OTI, pero no pudo asistir por ser menor de dieciséis años. La gran oportunidad le llegó cuando fue invitada a participar en el Festival
+     de la Canción de Viña del Mar de 1993. Fue entonces cuando, con sólo dieciséis años, su interpretación de la balada Eres le abrió las puertas del mercado 
+     latinoamericano. Mientras terminaba sus estudios de secundaria, Shakira preparó el que sería su tercer álbum, Pies descalzos (1995). El disco, que incluía 
+     además del tema que le da título otros hits como Estoy aquí, Sueños blancos y ¿Dónde estás corazón?, fue un éxito en toda América Latina, con más de cuatro 
+     millones de ejemplares vendidos;sus canciones se erigieron en éxitos extraordinarios y le hicieron ganar millones de admiradores. Su siguiente disco, ¿Dónde 
+     están los ladrones? (1998), producido por Emilio Estefan, la convirtió en la estrella indiscutible del pop-rock latino, con más de ocho millones de copias vendidas.
+     Algunos de los temas que contenía este álbum (nominado al premio Grammy y que se mantuvo durante más de un año entre los diez primeros del Soundscand en Estados Unidos), como el que le da título 
+     o Inevitable, Tú, Ojos así y Ciega, sordomuda, redoblaron la popularidad de Shakira y proyectaron su figura en los mercados internacionales.</p>
+  
+   <tr>
+  <td colspan="2"><center>
+  <button onclick="playVid()" type="button">Play Video</button>
+  <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+ 
+  <video id="Monty" width="320" height="176">
+  <source src="Monty.mp4" type="video/mp4">
+  <source src="Monty.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+  </video>
+
+  <script> 
+  var vid = document.getElementById("Monty"); 
+
+  function playVid() { 
+    Monty.play(); 
+} 
+
+function pauseVid() { 
+    Monty.pause(); 
+} 
+</script> 
+
+  
+
+  </center> </td>
+  </tr>
+  
+
+  <tr>
+    
+  <td colspan="2"><center><audio controls>
+  <source src="Kalimba.ogg" type="audio/ogg">
+  <source src="Kalimba.mp3" type="audio/mpeg">
+  </audio>
+    
+  </center> </td>
+  </tr>
+
+  
+
+
+<tr/>
+</center>
+</table>
+
+</body>
+</html>
